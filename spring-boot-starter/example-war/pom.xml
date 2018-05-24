@@ -10,8 +10,8 @@
   <properties>
     <spring.boot.version>2.0.0.RELEASE</spring.boot.version>
     <camunda.spring.boot.starter.version>3.0.0</camunda.spring.boot.starter.version>
-    <cargo.maven.containerId>tomcat8x</cargo.maven.containerId>
-    <cargo.maven.containerUrl>http://repo1.maven.org/maven2/org/apache/tomcat/tomcat/8.5.4/tomcat-8.5.4.zip</cargo.maven.containerUrl>
+    <cargo.maven.containerId>tomcat9x</cargo.maven.containerId>
+    <cargo.maven.containerUrl>http://repo1.maven.org/maven2/org/apache/tomcat/tomcat/9.0.5/tomcat-9.0.5.zip</cargo.maven.containerUrl>
   </properties>
 
   <dependencyManagement>
