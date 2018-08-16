@@ -1,0 +1,20 @@
+camunda:
+  bpm:
+    filter:
+      create: All
+    job-execution:
+      core-pool-size: 10
+    admin-user:
+      id: kermit
+      password: demodemo1
+    database:
+      type: mysql
+      schema-update: false
+
+spring:
+  datasource:
+    name: camunda
+    url: jdbc:mysql://127.0.0.1:3306/camunda
+    username: root
+    password: passw0rd
+    driver-class-name: com.mysql.jdbc.Driver
